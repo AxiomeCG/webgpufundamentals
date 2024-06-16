@@ -1,0 +1,43 @@
+{
+  language: 'Français',
+  langCode: 'fr',   // if not specified will use folder
+  defaultExampleCaption: "Cliquez ici pour ouvrir dans une fenêtre séparée",
+  title: 'webgpufundamentals',
+  description: 'Apprenez webgpu',
+  link: 'http://webgpufundamentals.org/',
+  commentSectionHeader: `
+<div>Questions? <a href="http://stackoverflow.com/questions/tagged/webgpu">Posez votre question sur stackoverflow</a>.</div>
+<div>
+   <a href="https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=suggested+topic&template=suggest-topic.md&title=%5BSUGGESTION%5D">Une suggestion</a>?
+   <a href="https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=&template=request.md&title=">Une demande</a>?
+   <a href="https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=bug+%2F+issue&template=bug-issue-report.md&title=">Un problème</a>?
+   <a href="https://github.com/webgpu/webgpufundamentals/issues/new?assignees=&labels=bug+%2F+issue&template=bug-issue-report.md&title=">Un bug</a>?
+</div>
+<div class="lesson-comment-notes">
+   Use <b>&lt;pre&gt;&lt;code&gt;</b>code goes here<b>&lt;/code&gt;&lt;/pre&gt;</b> for code blocks
+</div>
+  `,
+  missing: `
+Désolé, cet article n'a pas encore été traduit.
+
+[Les traductions sont bienvenues](https://github.com/webgpu/webgpufundamentals)! 😄
+
+[Ici, l'article original en anglais pour le moment]({{{origLink}}}).
+  `,
+  contribTemplate: 'Merci <a href="${html_url}"><img src="${avatar_url}"> ${login}</a><br>pour ses <a href="https://github.com/${owner}/${repo}/commits?author=${login}">${contributions} contributions</a>',
+  toc: 'Table des matières',
+  categoryMapping: {
+    'basics': 'Les bases',
+    'misc': 'Divers',
+    'textures': 'Textures',
+    'techniques': 'Techniques',
+    '3d': '3D',
+    '2d': '2D',
+    'reference': 'Référence',
+    '3d-math': 'Maths 3D',
+    'lighting': 'Lumières',
+    'compute-shaders': 'Shaders de calcul (Compute Shaders)',
+  },
+}
+
+
